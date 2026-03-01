@@ -1,0 +1,287 @@
+{
+    "instance20_4_1": {
+        "general": {
+            "numStages": 4,
+            "numOrders": 20,
+            "numJobs": 20,
+            "numMachines": 8,
+            "wip": 0,
+            "trial": 0
+        },
+        "stages": {
+            "Stage_0": {
+                "Cells": {
+                    "Stage_0-Machine_0": {
+                        "WIP_in": 1,
+                        "WIP_out": 1
+                    },
+                    "Stage_0-Machine_1": {
+                        "WIP_in": 3,
+                        "WIP_out": 1
+                    }
+                }
+            },
+            "Stage_1": {
+                "Cells": {
+                    "Stage_1-Machine_0": {
+                        "WIP_in": 2,
+                        "WIP_out": 1
+                    },
+                    "Stage_1-Machine_1": {
+                        "WIP_in": 1,
+                        "WIP_out": 1
+                    }
+                }
+            },
+            "Stage_2": {
+                "Cells": {
+                    "Stage_2-Machine_0": {
+                        "WIP_in": 3,
+                        "WIP_out": 2
+                    },
+                    "Stage_2-Machine_1": {
+                        "WIP_in": 2,
+                        "WIP_out": 1
+                    }
+                }
+            },
+            "Stage_3": {
+                "Cells": {
+                    "Stage_3-Machine_0": {
+                        "WIP_in": 3,
+                        "WIP_out": 3
+                    },
+                    "Stage_3-Machine_1": {
+                        "WIP_in": 2,
+                        "WIP_out": 2
+                    }
+                }
+            }
+        },
+        "orders": {
+            "Order_0": {
+                "jobConnect": {
+                    "0": "Order_0-Job_0"
+                }
+            },
+            "Order_1": {
+                "jobConnect": {
+                    "1": "Order_1-Job_1"
+                }
+            },
+            "Order_2": {
+                "jobConnect": {
+                    "2": "Order_2-Job_2"
+                }
+            },
+            "Order_3": {
+                "jobConnect": {
+                    "3": "Order_3-Job_3"
+                }
+            },
+            "Order_4": {
+                "jobConnect": {
+                    "4": "Order_4-Job_4"
+                }
+            },
+            "Order_5": {
+                "jobConnect": {
+                    "5": "Order_5-Job_5"
+                }
+            },
+            "Order_6": {
+                "jobConnect": {
+                    "6": "Order_6-Job_6"
+                }
+            },
+            "Order_7": {
+                "jobConnect": {
+                    "7": "Order_7-Job_7"
+                }
+            },
+            "Order_8": {
+                "jobConnect": {
+                    "8": "Order_8-Job_8"
+                }
+            },
+            "Order_9": {
+                "jobConnect": {
+                    "9": "Order_9-Job_9"
+                }
+            },
+            "Order_10": {
+                "jobConnect": {
+                    "10": "Order_10-Job_10"
+                }
+            },
+            "Order_11": {
+                "jobConnect": {
+                    "11": "Order_11-Job_11"
+                }
+            },
+            "Order_12": {
+                "jobConnect": {
+                    "12": "Order_12-Job_12"
+                }
+            },
+            "Order_13": {
+                "jobConnect": {
+                    "13": "Order_13-Job_13"
+                }
+            },
+            "Order_14": {
+                "jobConnect": {
+                    "14": "Order_14-Job_14"
+                }
+            },
+            "Order_15": {
+                "jobConnect": {
+                    "15": "Order_15-Job_15"
+                }
+            },
+            "Order_16": {
+                "jobConnect": {
+                    "16": "Order_16-Job_16"
+                }
+            },
+            "Order_17": {
+                "jobConnect": {
+                    "17": "Order_17-Job_17"
+                }
+            },
+            "Order_18": {
+                "jobConnect": {
+                    "18": "Order_18-Job_18"
+                }
+            },
+            "Order_19": {
+                "jobConnect": {
+                    "19": "Order_19-Job_19"
+                }
+            }
+        },
+        "processTimes": {
+            "Stage_0": {
+                "Order_0-Job_0": 10,
+                "Order_1-Job_1": 8,
+                "Order_2-Job_2": 13,
+                "Order_3-Job_3": 7,
+                "Order_4-Job_4": 10,
+                "Order_5-Job_5": 13,
+                "Order_6-Job_6": 4,
+                "Order_7-Job_7": 15,
+                "Order_8-Job_8": 2,
+                "Order_9-Job_9": 6,
+                "Order_10-Job_10": 3,
+                "Order_11-Job_11": 8,
+                "Order_12-Job_12": 12,
+                "Order_13-Job_13": 11,
+                "Order_15-Job_15": 4,
+                "Order_17-Job_17": 3,
+                "Order_18-Job_18": 12,
+                "Order_19-Job_19": 8
+            },
+            "Stage_1": {
+                "Order_0-Job_0": 8,
+                "Order_1-Job_1": 8,
+                "Order_2-Job_2": 8,
+                "Order_3-Job_3": 11,
+                "Order_4-Job_4": 7,
+                "Order_5-Job_5": 15,
+                "Order_6-Job_6": 14,
+                "Order_7-Job_7": 2,
+                "Order_10-Job_10": 11,
+                "Order_11-Job_11": 15,
+                "Order_12-Job_12": 7,
+                "Order_13-Job_13": 8,
+                "Order_14-Job_14": 13,
+                "Order_17-Job_17": 12,
+                "Order_18-Job_18": 9,
+                "Order_19-Job_19": 5
+            },
+            "Stage_2": {
+                "Order_0-Job_0": 9,
+                "Order_1-Job_1": 6,
+                "Order_2-Job_2": 8,
+                "Order_4-Job_4": 7,
+                "Order_5-Job_5": 12,
+                "Order_6-Job_6": 15,
+                "Order_10-Job_10": 11,
+                "Order_11-Job_11": 5,
+                "Order_12-Job_12": 8,
+                "Order_13-Job_13": 8,
+                "Order_14-Job_14": 13,
+                "Order_15-Job_15": 7,
+                "Order_16-Job_16": 3,
+                "Order_18-Job_18": 10,
+                "Order_19-Job_19": 14
+            },
+            "Stage_3": {
+                "Order_0-Job_0": 6,
+                "Order_1-Job_1": 13,
+                "Order_2-Job_2": 13,
+                "Order_3-Job_3": 6,
+                "Order_4-Job_4": 5,
+                "Order_5-Job_5": 2,
+                "Order_6-Job_6": 10,
+                "Order_8-Job_8": 14,
+                "Order_9-Job_9": 4,
+                "Order_10-Job_10": 15,
+                "Order_11-Job_11": 8,
+                "Order_12-Job_12": 12,
+                "Order_13-Job_13": 2,
+                "Order_14-Job_14": 7,
+                "Order_15-Job_15": 8,
+                "Order_16-Job_16": 8,
+                "Order_17-Job_17": 15,
+                "Order_18-Job_18": 2,
+                "Order_19-Job_19": 13
+            }
+        },
+        "transTimes": {
+            "Stage_0-Machine_0": {
+                "Stage_1-Machine_0": 4,
+                "Stage_1-Machine_1": 6,
+                "Stage_2-Machine_0": 16,
+                "Stage_2-Machine_1": 8,
+                "Stage_3-Machine_0": 21,
+                "Stage_3-Machine_1": 3
+            },
+            "Stage_0-Machine_1": {
+                "Stage_1-Machine_0": 3,
+                "Stage_1-Machine_1": 8,
+                "Stage_2-Machine_0": 6,
+                "Stage_2-Machine_1": 4,
+                "Stage_3-Machine_0": 9,
+                "Stage_3-Machine_1": 27
+            },
+            "Stage_1-Machine_0": {
+                "Stage_2-Machine_0": 7,
+                "Stage_2-Machine_1": 7,
+                "Stage_3-Machine_0": 16,
+                "Stage_3-Machine_1": 2
+            },
+            "Stage_1-Machine_1": {
+                "Stage_2-Machine_0": 6,
+                "Stage_2-Machine_1": 7,
+                "Stage_3-Machine_0": 8,
+                "Stage_3-Machine_1": 12
+            },
+            "Stage_2-Machine_0": {
+                "Stage_3-Machine_0": 9,
+                "Stage_3-Machine_1": 4
+            },
+            "Stage_2-Machine_1": {
+                "Stage_3-Machine_0": 3,
+                "Stage_3-Machine_1": 2
+            },
+            "Stage_3-Machine_0": {},
+            "Stage_3-Machine_1": {}
+        },
+        "workers": {
+            "total": 8,
+            "min_w": 1,
+            "max_w": 3
+        }
+    }
+}

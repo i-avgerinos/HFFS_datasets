@@ -1,0 +1,831 @@
+{
+    "instance100_3_1": {
+        "general": {
+            "numStages": 3,
+            "numOrders": 100,
+            "numJobs": 100,
+            "numMachines": 6,
+            "wip": 0,
+            "trial": 0
+        },
+        "stages": {
+            "Stage_0": {
+                "Cells": {
+                    "Stage_0-Machine_0": {
+                        "WIP_in": 3,
+                        "WIP_out": 2
+                    },
+                    "Stage_0-Machine_1": {
+                        "WIP_in": 3,
+                        "WIP_out": 1
+                    }
+                }
+            },
+            "Stage_1": {
+                "Cells": {
+                    "Stage_1-Machine_0": {
+                        "WIP_in": 1,
+                        "WIP_out": 3
+                    },
+                    "Stage_1-Machine_1": {
+                        "WIP_in": 2,
+                        "WIP_out": 3
+                    }
+                }
+            },
+            "Stage_2": {
+                "Cells": {
+                    "Stage_2-Machine_0": {
+                        "WIP_in": 3,
+                        "WIP_out": 2
+                    },
+                    "Stage_2-Machine_1": {
+                        "WIP_in": 1,
+                        "WIP_out": 1
+                    }
+                }
+            }
+        },
+        "orders": {
+            "Order_0": {
+                "jobConnect": {
+                    "0": "Order_0-Job_0"
+                }
+            },
+            "Order_1": {
+                "jobConnect": {
+                    "1": "Order_1-Job_1"
+                }
+            },
+            "Order_2": {
+                "jobConnect": {
+                    "2": "Order_2-Job_2"
+                }
+            },
+            "Order_3": {
+                "jobConnect": {
+                    "3": "Order_3-Job_3"
+                }
+            },
+            "Order_4": {
+                "jobConnect": {
+                    "4": "Order_4-Job_4"
+                }
+            },
+            "Order_5": {
+                "jobConnect": {
+                    "5": "Order_5-Job_5"
+                }
+            },
+            "Order_6": {
+                "jobConnect": {
+                    "6": "Order_6-Job_6"
+                }
+            },
+            "Order_7": {
+                "jobConnect": {
+                    "7": "Order_7-Job_7"
+                }
+            },
+            "Order_8": {
+                "jobConnect": {
+                    "8": "Order_8-Job_8"
+                }
+            },
+            "Order_9": {
+                "jobConnect": {
+                    "9": "Order_9-Job_9"
+                }
+            },
+            "Order_10": {
+                "jobConnect": {
+                    "10": "Order_10-Job_10"
+                }
+            },
+            "Order_11": {
+                "jobConnect": {
+                    "11": "Order_11-Job_11"
+                }
+            },
+            "Order_12": {
+                "jobConnect": {
+                    "12": "Order_12-Job_12"
+                }
+            },
+            "Order_13": {
+                "jobConnect": {
+                    "13": "Order_13-Job_13"
+                }
+            },
+            "Order_14": {
+                "jobConnect": {
+                    "14": "Order_14-Job_14"
+                }
+            },
+            "Order_15": {
+                "jobConnect": {
+                    "15": "Order_15-Job_15"
+                }
+            },
+            "Order_16": {
+                "jobConnect": {
+                    "16": "Order_16-Job_16"
+                }
+            },
+            "Order_17": {
+                "jobConnect": {
+                    "17": "Order_17-Job_17"
+                }
+            },
+            "Order_18": {
+                "jobConnect": {
+                    "18": "Order_18-Job_18"
+                }
+            },
+            "Order_19": {
+                "jobConnect": {
+                    "19": "Order_19-Job_19"
+                }
+            },
+            "Order_20": {
+                "jobConnect": {
+                    "20": "Order_20-Job_20"
+                }
+            },
+            "Order_21": {
+                "jobConnect": {
+                    "21": "Order_21-Job_21"
+                }
+            },
+            "Order_22": {
+                "jobConnect": {
+                    "22": "Order_22-Job_22"
+                }
+            },
+            "Order_23": {
+                "jobConnect": {
+                    "23": "Order_23-Job_23"
+                }
+            },
+            "Order_24": {
+                "jobConnect": {
+                    "24": "Order_24-Job_24"
+                }
+            },
+            "Order_25": {
+                "jobConnect": {
+                    "25": "Order_25-Job_25"
+                }
+            },
+            "Order_26": {
+                "jobConnect": {
+                    "26": "Order_26-Job_26"
+                }
+            },
+            "Order_27": {
+                "jobConnect": {
+                    "27": "Order_27-Job_27"
+                }
+            },
+            "Order_28": {
+                "jobConnect": {
+                    "28": "Order_28-Job_28"
+                }
+            },
+            "Order_29": {
+                "jobConnect": {
+                    "29": "Order_29-Job_29"
+                }
+            },
+            "Order_30": {
+                "jobConnect": {
+                    "30": "Order_30-Job_30"
+                }
+            },
+            "Order_31": {
+                "jobConnect": {
+                    "31": "Order_31-Job_31"
+                }
+            },
+            "Order_32": {
+                "jobConnect": {
+                    "32": "Order_32-Job_32"
+                }
+            },
+            "Order_33": {
+                "jobConnect": {
+                    "33": "Order_33-Job_33"
+                }
+            },
+            "Order_34": {
+                "jobConnect": {
+                    "34": "Order_34-Job_34"
+                }
+            },
+            "Order_35": {
+                "jobConnect": {
+                    "35": "Order_35-Job_35"
+                }
+            },
+            "Order_36": {
+                "jobConnect": {
+                    "36": "Order_36-Job_36"
+                }
+            },
+            "Order_37": {
+                "jobConnect": {
+                    "37": "Order_37-Job_37"
+                }
+            },
+            "Order_38": {
+                "jobConnect": {
+                    "38": "Order_38-Job_38"
+                }
+            },
+            "Order_39": {
+                "jobConnect": {
+                    "39": "Order_39-Job_39"
+                }
+            },
+            "Order_40": {
+                "jobConnect": {
+                    "40": "Order_40-Job_40"
+                }
+            },
+            "Order_41": {
+                "jobConnect": {
+                    "41": "Order_41-Job_41"
+                }
+            },
+            "Order_42": {
+                "jobConnect": {
+                    "42": "Order_42-Job_42"
+                }
+            },
+            "Order_43": {
+                "jobConnect": {
+                    "43": "Order_43-Job_43"
+                }
+            },
+            "Order_44": {
+                "jobConnect": {
+                    "44": "Order_44-Job_44"
+                }
+            },
+            "Order_45": {
+                "jobConnect": {
+                    "45": "Order_45-Job_45"
+                }
+            },
+            "Order_46": {
+                "jobConnect": {
+                    "46": "Order_46-Job_46"
+                }
+            },
+            "Order_47": {
+                "jobConnect": {
+                    "47": "Order_47-Job_47"
+                }
+            },
+            "Order_48": {
+                "jobConnect": {
+                    "48": "Order_48-Job_48"
+                }
+            },
+            "Order_49": {
+                "jobConnect": {
+                    "49": "Order_49-Job_49"
+                }
+            },
+            "Order_50": {
+                "jobConnect": {
+                    "50": "Order_50-Job_50"
+                }
+            },
+            "Order_51": {
+                "jobConnect": {
+                    "51": "Order_51-Job_51"
+                }
+            },
+            "Order_52": {
+                "jobConnect": {
+                    "52": "Order_52-Job_52"
+                }
+            },
+            "Order_53": {
+                "jobConnect": {
+                    "53": "Order_53-Job_53"
+                }
+            },
+            "Order_54": {
+                "jobConnect": {
+                    "54": "Order_54-Job_54"
+                }
+            },
+            "Order_55": {
+                "jobConnect": {
+                    "55": "Order_55-Job_55"
+                }
+            },
+            "Order_56": {
+                "jobConnect": {
+                    "56": "Order_56-Job_56"
+                }
+            },
+            "Order_57": {
+                "jobConnect": {
+                    "57": "Order_57-Job_57"
+                }
+            },
+            "Order_58": {
+                "jobConnect": {
+                    "58": "Order_58-Job_58"
+                }
+            },
+            "Order_59": {
+                "jobConnect": {
+                    "59": "Order_59-Job_59"
+                }
+            },
+            "Order_60": {
+                "jobConnect": {
+                    "60": "Order_60-Job_60"
+                }
+            },
+            "Order_61": {
+                "jobConnect": {
+                    "61": "Order_61-Job_61"
+                }
+            },
+            "Order_62": {
+                "jobConnect": {
+                    "62": "Order_62-Job_62"
+                }
+            },
+            "Order_63": {
+                "jobConnect": {
+                    "63": "Order_63-Job_63"
+                }
+            },
+            "Order_64": {
+                "jobConnect": {
+                    "64": "Order_64-Job_64"
+                }
+            },
+            "Order_65": {
+                "jobConnect": {
+                    "65": "Order_65-Job_65"
+                }
+            },
+            "Order_66": {
+                "jobConnect": {
+                    "66": "Order_66-Job_66"
+                }
+            },
+            "Order_67": {
+                "jobConnect": {
+                    "67": "Order_67-Job_67"
+                }
+            },
+            "Order_68": {
+                "jobConnect": {
+                    "68": "Order_68-Job_68"
+                }
+            },
+            "Order_69": {
+                "jobConnect": {
+                    "69": "Order_69-Job_69"
+                }
+            },
+            "Order_70": {
+                "jobConnect": {
+                    "70": "Order_70-Job_70"
+                }
+            },
+            "Order_71": {
+                "jobConnect": {
+                    "71": "Order_71-Job_71"
+                }
+            },
+            "Order_72": {
+                "jobConnect": {
+                    "72": "Order_72-Job_72"
+                }
+            },
+            "Order_73": {
+                "jobConnect": {
+                    "73": "Order_73-Job_73"
+                }
+            },
+            "Order_74": {
+                "jobConnect": {
+                    "74": "Order_74-Job_74"
+                }
+            },
+            "Order_75": {
+                "jobConnect": {
+                    "75": "Order_75-Job_75"
+                }
+            },
+            "Order_76": {
+                "jobConnect": {
+                    "76": "Order_76-Job_76"
+                }
+            },
+            "Order_77": {
+                "jobConnect": {
+                    "77": "Order_77-Job_77"
+                }
+            },
+            "Order_78": {
+                "jobConnect": {
+                    "78": "Order_78-Job_78"
+                }
+            },
+            "Order_79": {
+                "jobConnect": {
+                    "79": "Order_79-Job_79"
+                }
+            },
+            "Order_80": {
+                "jobConnect": {
+                    "80": "Order_80-Job_80"
+                }
+            },
+            "Order_81": {
+                "jobConnect": {
+                    "81": "Order_81-Job_81"
+                }
+            },
+            "Order_82": {
+                "jobConnect": {
+                    "82": "Order_82-Job_82"
+                }
+            },
+            "Order_83": {
+                "jobConnect": {
+                    "83": "Order_83-Job_83"
+                }
+            },
+            "Order_84": {
+                "jobConnect": {
+                    "84": "Order_84-Job_84"
+                }
+            },
+            "Order_85": {
+                "jobConnect": {
+                    "85": "Order_85-Job_85"
+                }
+            },
+            "Order_86": {
+                "jobConnect": {
+                    "86": "Order_86-Job_86"
+                }
+            },
+            "Order_87": {
+                "jobConnect": {
+                    "87": "Order_87-Job_87"
+                }
+            },
+            "Order_88": {
+                "jobConnect": {
+                    "88": "Order_88-Job_88"
+                }
+            },
+            "Order_89": {
+                "jobConnect": {
+                    "89": "Order_89-Job_89"
+                }
+            },
+            "Order_90": {
+                "jobConnect": {
+                    "90": "Order_90-Job_90"
+                }
+            },
+            "Order_91": {
+                "jobConnect": {
+                    "91": "Order_91-Job_91"
+                }
+            },
+            "Order_92": {
+                "jobConnect": {
+                    "92": "Order_92-Job_92"
+                }
+            },
+            "Order_93": {
+                "jobConnect": {
+                    "93": "Order_93-Job_93"
+                }
+            },
+            "Order_94": {
+                "jobConnect": {
+                    "94": "Order_94-Job_94"
+                }
+            },
+            "Order_95": {
+                "jobConnect": {
+                    "95": "Order_95-Job_95"
+                }
+            },
+            "Order_96": {
+                "jobConnect": {
+                    "96": "Order_96-Job_96"
+                }
+            },
+            "Order_97": {
+                "jobConnect": {
+                    "97": "Order_97-Job_97"
+                }
+            },
+            "Order_98": {
+                "jobConnect": {
+                    "98": "Order_98-Job_98"
+                }
+            },
+            "Order_99": {
+                "jobConnect": {
+                    "99": "Order_99-Job_99"
+                }
+            }
+        },
+        "processTimes": {
+            "Stage_0": {
+                "Order_1-Job_1": 13,
+                "Order_2-Job_2": 8,
+                "Order_3-Job_3": 7,
+                "Order_4-Job_4": 14,
+                "Order_5-Job_5": 3,
+                "Order_6-Job_6": 6,
+                "Order_7-Job_7": 9,
+                "Order_8-Job_8": 5,
+                "Order_9-Job_9": 12,
+                "Order_10-Job_10": 10,
+                "Order_12-Job_12": 10,
+                "Order_13-Job_13": 11,
+                "Order_14-Job_14": 10,
+                "Order_15-Job_15": 12,
+                "Order_17-Job_17": 15,
+                "Order_18-Job_18": 15,
+                "Order_19-Job_19": 6,
+                "Order_20-Job_20": 5,
+                "Order_22-Job_22": 10,
+                "Order_23-Job_23": 15,
+                "Order_24-Job_24": 14,
+                "Order_25-Job_25": 3,
+                "Order_26-Job_26": 4,
+                "Order_27-Job_27": 11,
+                "Order_28-Job_28": 11,
+                "Order_30-Job_30": 4,
+                "Order_31-Job_31": 12,
+                "Order_32-Job_32": 12,
+                "Order_33-Job_33": 2,
+                "Order_34-Job_34": 13,
+                "Order_35-Job_35": 12,
+                "Order_38-Job_38": 10,
+                "Order_39-Job_39": 9,
+                "Order_40-Job_40": 10,
+                "Order_41-Job_41": 2,
+                "Order_42-Job_42": 2,
+                "Order_44-Job_44": 10,
+                "Order_45-Job_45": 4,
+                "Order_46-Job_46": 9,
+                "Order_47-Job_47": 9,
+                "Order_48-Job_48": 3,
+                "Order_49-Job_49": 7,
+                "Order_51-Job_51": 6,
+                "Order_52-Job_52": 6,
+                "Order_53-Job_53": 2,
+                "Order_54-Job_54": 7,
+                "Order_55-Job_55": 11,
+                "Order_57-Job_57": 5,
+                "Order_59-Job_59": 4,
+                "Order_60-Job_60": 12,
+                "Order_62-Job_62": 4,
+                "Order_63-Job_63": 7,
+                "Order_64-Job_64": 15,
+                "Order_65-Job_65": 8,
+                "Order_66-Job_66": 9,
+                "Order_67-Job_67": 8,
+                "Order_68-Job_68": 12,
+                "Order_70-Job_70": 8,
+                "Order_71-Job_71": 14,
+                "Order_72-Job_72": 10,
+                "Order_73-Job_73": 5,
+                "Order_74-Job_74": 9,
+                "Order_75-Job_75": 11,
+                "Order_76-Job_76": 8,
+                "Order_79-Job_79": 10,
+                "Order_81-Job_81": 4,
+                "Order_82-Job_82": 3,
+                "Order_83-Job_83": 6,
+                "Order_84-Job_84": 7,
+                "Order_85-Job_85": 4,
+                "Order_87-Job_87": 11,
+                "Order_89-Job_89": 6,
+                "Order_90-Job_90": 15,
+                "Order_91-Job_91": 4,
+                "Order_92-Job_92": 11,
+                "Order_94-Job_94": 10,
+                "Order_95-Job_95": 14,
+                "Order_97-Job_97": 13,
+                "Order_98-Job_98": 14,
+                "Order_99-Job_99": 4
+            },
+            "Stage_1": {
+                "Order_0-Job_0": 5,
+                "Order_1-Job_1": 8,
+                "Order_2-Job_2": 15,
+                "Order_3-Job_3": 15,
+                "Order_4-Job_4": 14,
+                "Order_5-Job_5": 8,
+                "Order_6-Job_6": 5,
+                "Order_7-Job_7": 7,
+                "Order_8-Job_8": 3,
+                "Order_10-Job_10": 15,
+                "Order_11-Job_11": 4,
+                "Order_12-Job_12": 15,
+                "Order_13-Job_13": 11,
+                "Order_14-Job_14": 3,
+                "Order_17-Job_17": 7,
+                "Order_18-Job_18": 9,
+                "Order_22-Job_22": 10,
+                "Order_23-Job_23": 15,
+                "Order_25-Job_25": 3,
+                "Order_27-Job_27": 5,
+                "Order_30-Job_30": 9,
+                "Order_31-Job_31": 8,
+                "Order_32-Job_32": 13,
+                "Order_34-Job_34": 15,
+                "Order_37-Job_37": 15,
+                "Order_38-Job_38": 8,
+                "Order_39-Job_39": 14,
+                "Order_41-Job_41": 8,
+                "Order_42-Job_42": 5,
+                "Order_43-Job_43": 9,
+                "Order_44-Job_44": 4,
+                "Order_45-Job_45": 10,
+                "Order_46-Job_46": 14,
+                "Order_48-Job_48": 8,
+                "Order_49-Job_49": 3,
+                "Order_50-Job_50": 5,
+                "Order_51-Job_51": 11,
+                "Order_52-Job_52": 2,
+                "Order_53-Job_53": 14,
+                "Order_54-Job_54": 15,
+                "Order_55-Job_55": 2,
+                "Order_56-Job_56": 2,
+                "Order_57-Job_57": 10,
+                "Order_58-Job_58": 3,
+                "Order_59-Job_59": 11,
+                "Order_61-Job_61": 13,
+                "Order_62-Job_62": 8,
+                "Order_63-Job_63": 4,
+                "Order_64-Job_64": 15,
+                "Order_66-Job_66": 12,
+                "Order_67-Job_67": 8,
+                "Order_68-Job_68": 2,
+                "Order_69-Job_69": 11,
+                "Order_72-Job_72": 15,
+                "Order_73-Job_73": 4,
+                "Order_74-Job_74": 6,
+                "Order_75-Job_75": 8,
+                "Order_76-Job_76": 5,
+                "Order_77-Job_77": 5,
+                "Order_79-Job_79": 5,
+                "Order_80-Job_80": 2,
+                "Order_81-Job_81": 12,
+                "Order_82-Job_82": 6,
+                "Order_84-Job_84": 5,
+                "Order_85-Job_85": 9,
+                "Order_87-Job_87": 8,
+                "Order_88-Job_88": 14,
+                "Order_89-Job_89": 14,
+                "Order_90-Job_90": 14,
+                "Order_91-Job_91": 13,
+                "Order_93-Job_93": 9,
+                "Order_95-Job_95": 13,
+                "Order_96-Job_96": 7,
+                "Order_97-Job_97": 8,
+                "Order_98-Job_98": 11,
+                "Order_99-Job_99": 5
+            },
+            "Stage_2": {
+                "Order_0-Job_0": 10,
+                "Order_1-Job_1": 3,
+                "Order_2-Job_2": 3,
+                "Order_3-Job_3": 2,
+                "Order_5-Job_5": 14,
+                "Order_6-Job_6": 3,
+                "Order_7-Job_7": 8,
+                "Order_8-Job_8": 14,
+                "Order_9-Job_9": 15,
+                "Order_10-Job_10": 14,
+                "Order_12-Job_12": 14,
+                "Order_13-Job_13": 10,
+                "Order_14-Job_14": 10,
+                "Order_15-Job_15": 15,
+                "Order_16-Job_16": 11,
+                "Order_17-Job_17": 8,
+                "Order_18-Job_18": 3,
+                "Order_19-Job_19": 3,
+                "Order_20-Job_20": 12,
+                "Order_21-Job_21": 7,
+                "Order_22-Job_22": 3,
+                "Order_24-Job_24": 11,
+                "Order_25-Job_25": 6,
+                "Order_26-Job_26": 11,
+                "Order_27-Job_27": 11,
+                "Order_28-Job_28": 2,
+                "Order_29-Job_29": 12,
+                "Order_30-Job_30": 5,
+                "Order_31-Job_31": 7,
+                "Order_32-Job_32": 9,
+                "Order_33-Job_33": 8,
+                "Order_34-Job_34": 14,
+                "Order_35-Job_35": 3,
+                "Order_36-Job_36": 11,
+                "Order_37-Job_37": 5,
+                "Order_38-Job_38": 6,
+                "Order_39-Job_39": 8,
+                "Order_40-Job_40": 12,
+                "Order_41-Job_41": 6,
+                "Order_42-Job_42": 4,
+                "Order_43-Job_43": 7,
+                "Order_44-Job_44": 11,
+                "Order_45-Job_45": 15,
+                "Order_46-Job_46": 12,
+                "Order_47-Job_47": 4,
+                "Order_48-Job_48": 4,
+                "Order_49-Job_49": 12,
+                "Order_50-Job_50": 5,
+                "Order_51-Job_51": 11,
+                "Order_54-Job_54": 5,
+                "Order_57-Job_57": 14,
+                "Order_58-Job_58": 7,
+                "Order_59-Job_59": 2,
+                "Order_61-Job_61": 15,
+                "Order_63-Job_63": 12,
+                "Order_64-Job_64": 14,
+                "Order_65-Job_65": 7,
+                "Order_66-Job_66": 7,
+                "Order_68-Job_68": 15,
+                "Order_69-Job_69": 4,
+                "Order_70-Job_70": 4,
+                "Order_71-Job_71": 2,
+                "Order_72-Job_72": 6,
+                "Order_73-Job_73": 8,
+                "Order_75-Job_75": 6,
+                "Order_76-Job_76": 14,
+                "Order_77-Job_77": 5,
+                "Order_78-Job_78": 2,
+                "Order_79-Job_79": 9,
+                "Order_80-Job_80": 13,
+                "Order_82-Job_82": 6,
+                "Order_83-Job_83": 10,
+                "Order_85-Job_85": 2,
+                "Order_86-Job_86": 14,
+                "Order_87-Job_87": 10,
+                "Order_88-Job_88": 14,
+                "Order_90-Job_90": 7,
+                "Order_91-Job_91": 14,
+                "Order_92-Job_92": 5,
+                "Order_93-Job_93": 8,
+                "Order_94-Job_94": 2,
+                "Order_95-Job_95": 7,
+                "Order_96-Job_96": 9,
+                "Order_97-Job_97": 8,
+                "Order_98-Job_98": 7,
+                "Order_99-Job_99": 14
+            }
+        },
+        "transTimes": {
+            "Stage_0-Machine_0": {
+                "Stage_1-Machine_0": 2,
+                "Stage_1-Machine_1": 3,
+                "Stage_2-Machine_0": 6,
+                "Stage_2-Machine_1": 14
+            },
+            "Stage_0-Machine_1": {
+                "Stage_1-Machine_0": 3,
+                "Stage_1-Machine_1": 3,
+                "Stage_2-Machine_0": 4,
+                "Stage_2-Machine_1": 4
+            },
+            "Stage_1-Machine_0": {
+                "Stage_2-Machine_0": 4,
+                "Stage_2-Machine_1": 3
+            },
+            "Stage_1-Machine_1": {
+                "Stage_2-Machine_0": 1,
+                "Stage_2-Machine_1": 3
+            },
+            "Stage_2-Machine_0": {},
+            "Stage_2-Machine_1": {}
+        },
+        "workers": {
+            "total": 8,
+            "min_w": 1,
+            "max_w": 3
+        }
+    }
+}
