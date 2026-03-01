@@ -1,0 +1,1501 @@
+{
+    "general": {
+        "numStages": 8,
+        "numOrders": 20,
+        "numJobs": 20,
+        "numMachines": 80,
+        "wip": 0,
+        "trial": 0
+    },
+    "stages": {
+        "Stage_0": {
+            "Cells": {
+                "Stage_0-Machine_0": {
+                    "WIP_in": 5000,
+                    "WIP_out": 4
+                },
+                "Stage_0-Machine_1": {
+                    "WIP_in": 5000,
+                    "WIP_out": 2
+                },
+                "Stage_0-Machine_2": {
+                    "WIP_in": 5000,
+                    "WIP_out": 2
+                },
+                "Stage_0-Machine_3": {
+                    "WIP_in": 5000,
+                    "WIP_out": 4
+                },
+                "Stage_0-Machine_4": {
+                    "WIP_in": 5000,
+                    "WIP_out": 3
+                },
+                "Stage_0-Machine_5": {
+                    "WIP_in": 5000,
+                    "WIP_out": 4
+                },
+                "Stage_0-Machine_6": {
+                    "WIP_in": 5000,
+                    "WIP_out": 3
+                },
+                "Stage_0-Machine_7": {
+                    "WIP_in": 5000,
+                    "WIP_out": 1
+                },
+                "Stage_0-Machine_8": {
+                    "WIP_in": 5000,
+                    "WIP_out": 4
+                },
+                "Stage_0-Machine_9": {
+                    "WIP_in": 5000,
+                    "WIP_out": 5
+                }
+            }
+        },
+        "Stage_1": {
+            "Cells": {
+                "Stage_1-Machine_10": {
+                    "WIP_in": 5,
+                    "WIP_out": 2
+                },
+                "Stage_1-Machine_11": {
+                    "WIP_in": 4,
+                    "WIP_out": 1
+                },
+                "Stage_1-Machine_12": {
+                    "WIP_in": 4,
+                    "WIP_out": 4
+                },
+                "Stage_1-Machine_13": {
+                    "WIP_in": 3,
+                    "WIP_out": 3
+                },
+                "Stage_1-Machine_14": {
+                    "WIP_in": 1,
+                    "WIP_out": 5
+                },
+                "Stage_1-Machine_15": {
+                    "WIP_in": 2,
+                    "WIP_out": 2
+                },
+                "Stage_1-Machine_16": {
+                    "WIP_in": 3,
+                    "WIP_out": 4
+                },
+                "Stage_1-Machine_17": {
+                    "WIP_in": 5,
+                    "WIP_out": 3
+                },
+                "Stage_1-Machine_18": {
+                    "WIP_in": 2,
+                    "WIP_out": 5
+                },
+                "Stage_1-Machine_19": {
+                    "WIP_in": 1,
+                    "WIP_out": 5
+                }
+            }
+        },
+        "Stage_2": {
+            "Cells": {
+                "Stage_2-Machine_20": {
+                    "WIP_in": 2,
+                    "WIP_out": 3
+                },
+                "Stage_2-Machine_21": {
+                    "WIP_in": 2,
+                    "WIP_out": 2
+                },
+                "Stage_2-Machine_22": {
+                    "WIP_in": 2,
+                    "WIP_out": 5
+                },
+                "Stage_2-Machine_23": {
+                    "WIP_in": 3,
+                    "WIP_out": 2
+                },
+                "Stage_2-Machine_24": {
+                    "WIP_in": 4,
+                    "WIP_out": 5
+                },
+                "Stage_2-Machine_25": {
+                    "WIP_in": 4,
+                    "WIP_out": 4
+                },
+                "Stage_2-Machine_26": {
+                    "WIP_in": 2,
+                    "WIP_out": 1
+                },
+                "Stage_2-Machine_27": {
+                    "WIP_in": 4,
+                    "WIP_out": 3
+                },
+                "Stage_2-Machine_28": {
+                    "WIP_in": 1,
+                    "WIP_out": 4
+                },
+                "Stage_2-Machine_29": {
+                    "WIP_in": 5,
+                    "WIP_out": 5
+                }
+            }
+        },
+        "Stage_3": {
+            "Cells": {
+                "Stage_3-Machine_30": {
+                    "WIP_in": 5,
+                    "WIP_out": 5
+                },
+                "Stage_3-Machine_31": {
+                    "WIP_in": 1,
+                    "WIP_out": 5
+                },
+                "Stage_3-Machine_32": {
+                    "WIP_in": 1,
+                    "WIP_out": 1
+                },
+                "Stage_3-Machine_33": {
+                    "WIP_in": 5,
+                    "WIP_out": 3
+                },
+                "Stage_3-Machine_34": {
+                    "WIP_in": 5,
+                    "WIP_out": 5
+                },
+                "Stage_3-Machine_35": {
+                    "WIP_in": 5,
+                    "WIP_out": 4
+                },
+                "Stage_3-Machine_36": {
+                    "WIP_in": 3,
+                    "WIP_out": 4
+                },
+                "Stage_3-Machine_37": {
+                    "WIP_in": 5,
+                    "WIP_out": 5
+                },
+                "Stage_3-Machine_38": {
+                    "WIP_in": 4,
+                    "WIP_out": 2
+                },
+                "Stage_3-Machine_39": {
+                    "WIP_in": 2,
+                    "WIP_out": 1
+                }
+            }
+        },
+        "Stage_4": {
+            "Cells": {
+                "Stage_4-Machine_40": {
+                    "WIP_in": 4,
+                    "WIP_out": 1
+                },
+                "Stage_4-Machine_41": {
+                    "WIP_in": 4,
+                    "WIP_out": 3
+                },
+                "Stage_4-Machine_42": {
+                    "WIP_in": 1,
+                    "WIP_out": 2
+                },
+                "Stage_4-Machine_43": {
+                    "WIP_in": 1,
+                    "WIP_out": 3
+                },
+                "Stage_4-Machine_44": {
+                    "WIP_in": 4,
+                    "WIP_out": 3
+                },
+                "Stage_4-Machine_45": {
+                    "WIP_in": 3,
+                    "WIP_out": 5
+                },
+                "Stage_4-Machine_46": {
+                    "WIP_in": 1,
+                    "WIP_out": 5
+                },
+                "Stage_4-Machine_47": {
+                    "WIP_in": 3,
+                    "WIP_out": 1
+                },
+                "Stage_4-Machine_48": {
+                    "WIP_in": 5,
+                    "WIP_out": 5
+                },
+                "Stage_4-Machine_49": {
+                    "WIP_in": 1,
+                    "WIP_out": 1
+                }
+            }
+        },
+        "Stage_5": {
+            "Cells": {
+                "Stage_5-Machine_50": {
+                    "WIP_in": 4,
+                    "WIP_out": 1
+                },
+                "Stage_5-Machine_51": {
+                    "WIP_in": 2,
+                    "WIP_out": 1
+                },
+                "Stage_5-Machine_52": {
+                    "WIP_in": 3,
+                    "WIP_out": 5
+                },
+                "Stage_5-Machine_53": {
+                    "WIP_in": 5,
+                    "WIP_out": 1
+                },
+                "Stage_5-Machine_54": {
+                    "WIP_in": 2,
+                    "WIP_out": 4
+                },
+                "Stage_5-Machine_55": {
+                    "WIP_in": 1,
+                    "WIP_out": 1
+                },
+                "Stage_5-Machine_56": {
+                    "WIP_in": 5,
+                    "WIP_out": 1
+                },
+                "Stage_5-Machine_57": {
+                    "WIP_in": 1,
+                    "WIP_out": 2
+                },
+                "Stage_5-Machine_58": {
+                    "WIP_in": 5,
+                    "WIP_out": 3
+                },
+                "Stage_5-Machine_59": {
+                    "WIP_in": 2,
+                    "WIP_out": 5
+                }
+            }
+        },
+        "Stage_6": {
+            "Cells": {
+                "Stage_6-Machine_60": {
+                    "WIP_in": 3,
+                    "WIP_out": 2
+                },
+                "Stage_6-Machine_61": {
+                    "WIP_in": 4,
+                    "WIP_out": 3
+                },
+                "Stage_6-Machine_62": {
+                    "WIP_in": 5,
+                    "WIP_out": 4
+                },
+                "Stage_6-Machine_63": {
+                    "WIP_in": 4,
+                    "WIP_out": 4
+                },
+                "Stage_6-Machine_64": {
+                    "WIP_in": 4,
+                    "WIP_out": 1
+                },
+                "Stage_6-Machine_65": {
+                    "WIP_in": 4,
+                    "WIP_out": 2
+                },
+                "Stage_6-Machine_66": {
+                    "WIP_in": 1,
+                    "WIP_out": 1
+                },
+                "Stage_6-Machine_67": {
+                    "WIP_in": 1,
+                    "WIP_out": 5
+                },
+                "Stage_6-Machine_68": {
+                    "WIP_in": 4,
+                    "WIP_out": 2
+                },
+                "Stage_6-Machine_69": {
+                    "WIP_in": 1,
+                    "WIP_out": 2
+                }
+            }
+        },
+        "Stage_7": {
+            "Cells": {
+                "Stage_7-Machine_70": {
+                    "WIP_in": 1,
+                    "WIP_out": 5000
+                },
+                "Stage_7-Machine_71": {
+                    "WIP_in": 3,
+                    "WIP_out": 5000
+                },
+                "Stage_7-Machine_72": {
+                    "WIP_in": 1,
+                    "WIP_out": 5000
+                },
+                "Stage_7-Machine_73": {
+                    "WIP_in": 3,
+                    "WIP_out": 5000
+                },
+                "Stage_7-Machine_74": {
+                    "WIP_in": 5,
+                    "WIP_out": 5000
+                },
+                "Stage_7-Machine_75": {
+                    "WIP_in": 4,
+                    "WIP_out": 5000
+                },
+                "Stage_7-Machine_76": {
+                    "WIP_in": 3,
+                    "WIP_out": 5000
+                },
+                "Stage_7-Machine_77": {
+                    "WIP_in": 3,
+                    "WIP_out": 5000
+                },
+                "Stage_7-Machine_78": {
+                    "WIP_in": 2,
+                    "WIP_out": 5000
+                },
+                "Stage_7-Machine_79": {
+                    "WIP_in": 2,
+                    "WIP_out": 5000
+                }
+            }
+        }
+    },
+    "orders": {
+        "Order_0": {
+            "jobConnect": {
+                "0": "Order_0-Job_0"
+            }
+        },
+        "Order_1": {
+            "jobConnect": {
+                "0": "Order_1-Job_1"
+            }
+        },
+        "Order_2": {
+            "jobConnect": {
+                "0": "Order_2-Job_2"
+            }
+        },
+        "Order_3": {
+            "jobConnect": {
+                "0": "Order_3-Job_3"
+            }
+        },
+        "Order_4": {
+            "jobConnect": {
+                "0": "Order_4-Job_4"
+            }
+        },
+        "Order_5": {
+            "jobConnect": {
+                "0": "Order_5-Job_5"
+            }
+        },
+        "Order_6": {
+            "jobConnect": {
+                "0": "Order_6-Job_6"
+            }
+        },
+        "Order_7": {
+            "jobConnect": {
+                "0": "Order_7-Job_7"
+            }
+        },
+        "Order_8": {
+            "jobConnect": {
+                "0": "Order_8-Job_8"
+            }
+        },
+        "Order_9": {
+            "jobConnect": {
+                "0": "Order_9-Job_9"
+            }
+        },
+        "Order_10": {
+            "jobConnect": {
+                "0": "Order_10-Job_10"
+            }
+        },
+        "Order_11": {
+            "jobConnect": {
+                "0": "Order_11-Job_11"
+            }
+        },
+        "Order_12": {
+            "jobConnect": {
+                "0": "Order_12-Job_12"
+            }
+        },
+        "Order_13": {
+            "jobConnect": {
+                "0": "Order_13-Job_13"
+            }
+        },
+        "Order_14": {
+            "jobConnect": {
+                "0": "Order_14-Job_14"
+            }
+        },
+        "Order_15": {
+            "jobConnect": {
+                "0": "Order_15-Job_15"
+            }
+        },
+        "Order_16": {
+            "jobConnect": {
+                "0": "Order_16-Job_16"
+            }
+        },
+        "Order_17": {
+            "jobConnect": {
+                "0": "Order_17-Job_17"
+            }
+        },
+        "Order_18": {
+            "jobConnect": {
+                "0": "Order_18-Job_18"
+            }
+        },
+        "Order_19": {
+            "jobConnect": {
+                "0": "Order_19-Job_19"
+            }
+        }
+    },
+    "processTimes": {
+        "Stage_0": {
+            "Order_0-Job_0": 9,
+            "Order_1-Job_1": 9,
+            "Order_2-Job_2": 9,
+            "Order_3-Job_3": 9,
+            "Order_4-Job_4": 9,
+            "Order_5-Job_5": 3,
+            "Order_6-Job_6": 9,
+            "Order_7-Job_7": 9,
+            "Order_8-Job_8": 3,
+            "Order_9-Job_9": 3,
+            "Order_10-Job_10": 9,
+            "Order_11-Job_11": 9,
+            "Order_12-Job_12": 10,
+            "Order_13-Job_13": 9,
+            "Order_14-Job_14": 2,
+            "Order_15-Job_15": 10,
+            "Order_16-Job_16": 3,
+            "Order_17-Job_17": 8,
+            "Order_18-Job_18": 9,
+            "Order_19-Job_19": 9
+        },
+        "Stage_1": {
+            "Order_0-Job_0": 8,
+            "Order_1-Job_1": 8,
+            "Order_2-Job_2": 8,
+            "Order_3-Job_3": 5,
+            "Order_4-Job_4": 1,
+            "Order_5-Job_5": 4,
+            "Order_6-Job_6": 8,
+            "Order_7-Job_7": 8,
+            "Order_8-Job_8": 8,
+            "Order_9-Job_9": 4,
+            "Order_10-Job_10": 1,
+            "Order_11-Job_11": 8,
+            "Order_12-Job_12": 10,
+            "Order_13-Job_13": 8,
+            "Order_14-Job_14": 10,
+            "Order_15-Job_15": 10,
+            "Order_16-Job_16": 4,
+            "Order_17-Job_17": 6,
+            "Order_18-Job_18": 8,
+            "Order_19-Job_19": 10
+        },
+        "Stage_2": {
+            "Order_0-Job_0": 4,
+            "Order_1-Job_1": 4,
+            "Order_2-Job_2": 4,
+            "Order_3-Job_3": 10,
+            "Order_4-Job_4": 10,
+            "Order_5-Job_5": 8,
+            "Order_6-Job_6": 4,
+            "Order_7-Job_7": 4,
+            "Order_8-Job_8": 7,
+            "Order_9-Job_9": 8,
+            "Order_10-Job_10": 10,
+            "Order_11-Job_11": 4,
+            "Order_12-Job_12": 3,
+            "Order_13-Job_13": 4,
+            "Order_14-Job_14": 4,
+            "Order_15-Job_15": 3,
+            "Order_16-Job_16": 8,
+            "Order_17-Job_17": 3,
+            "Order_18-Job_18": 4,
+            "Order_19-Job_19": 1
+        },
+        "Stage_3": {
+            "Order_0-Job_0": 7,
+            "Order_1-Job_1": 7,
+            "Order_2-Job_2": 7,
+            "Order_3-Job_3": 8,
+            "Order_4-Job_4": 2,
+            "Order_5-Job_5": 10,
+            "Order_6-Job_6": 7,
+            "Order_7-Job_7": 7,
+            "Order_8-Job_8": 7,
+            "Order_9-Job_9": 10,
+            "Order_10-Job_10": 2,
+            "Order_11-Job_11": 7,
+            "Order_12-Job_12": 9,
+            "Order_13-Job_13": 7,
+            "Order_14-Job_14": 4,
+            "Order_15-Job_15": 9,
+            "Order_16-Job_16": 10,
+            "Order_17-Job_17": 9,
+            "Order_18-Job_18": 7,
+            "Order_19-Job_19": 9
+        },
+        "Stage_4": {
+            "Order_0-Job_0": 6,
+            "Order_1-Job_1": 6,
+            "Order_2-Job_2": 6,
+            "Order_3-Job_3": 6,
+            "Order_4-Job_4": 2,
+            "Order_5-Job_5": 7,
+            "Order_6-Job_6": 6,
+            "Order_7-Job_7": 6,
+            "Order_8-Job_8": 6,
+            "Order_9-Job_9": 7,
+            "Order_10-Job_10": 2,
+            "Order_11-Job_11": 6,
+            "Order_12-Job_12": 9,
+            "Order_13-Job_13": 6,
+            "Order_14-Job_14": 9,
+            "Order_15-Job_15": 9,
+            "Order_16-Job_16": 7,
+            "Order_17-Job_17": 5,
+            "Order_18-Job_18": 6,
+            "Order_19-Job_19": 7
+        },
+        "Stage_5": {
+            "Order_0-Job_0": 9,
+            "Order_1-Job_1": 9,
+            "Order_2-Job_2": 9,
+            "Order_3-Job_3": 1,
+            "Order_4-Job_4": 10,
+            "Order_5-Job_5": 5,
+            "Order_6-Job_6": 9,
+            "Order_7-Job_7": 9,
+            "Order_8-Job_8": 3,
+            "Order_9-Job_9": 5,
+            "Order_10-Job_10": 10,
+            "Order_11-Job_11": 9,
+            "Order_12-Job_12": 7,
+            "Order_13-Job_13": 9,
+            "Order_14-Job_14": 10,
+            "Order_15-Job_15": 7,
+            "Order_16-Job_16": 5,
+            "Order_17-Job_17": 3,
+            "Order_18-Job_18": 9,
+            "Order_19-Job_19": 4
+        },
+        "Stage_6": {
+            "Order_0-Job_0": 2,
+            "Order_1-Job_1": 2,
+            "Order_2-Job_2": 2,
+            "Order_3-Job_3": 2,
+            "Order_4-Job_4": 9,
+            "Order_5-Job_5": 8,
+            "Order_6-Job_6": 2,
+            "Order_7-Job_7": 2,
+            "Order_8-Job_8": 5,
+            "Order_9-Job_9": 8,
+            "Order_10-Job_10": 9,
+            "Order_11-Job_11": 2,
+            "Order_12-Job_12": 9,
+            "Order_13-Job_13": 2,
+            "Order_14-Job_14": 1,
+            "Order_15-Job_15": 9,
+            "Order_16-Job_16": 8,
+            "Order_17-Job_17": 9,
+            "Order_18-Job_18": 2,
+            "Order_19-Job_19": 1
+        },
+        "Stage_7": {
+            "Order_0-Job_0": 3,
+            "Order_1-Job_1": 3,
+            "Order_2-Job_2": 3,
+            "Order_3-Job_3": 8,
+            "Order_4-Job_4": 7,
+            "Order_5-Job_5": 1,
+            "Order_6-Job_6": 3,
+            "Order_7-Job_7": 3,
+            "Order_8-Job_8": 8,
+            "Order_9-Job_9": 1,
+            "Order_10-Job_10": 7,
+            "Order_11-Job_11": 3,
+            "Order_12-Job_12": 8,
+            "Order_13-Job_13": 3,
+            "Order_14-Job_14": 9,
+            "Order_15-Job_15": 8,
+            "Order_16-Job_16": 1,
+            "Order_17-Job_17": 1,
+            "Order_18-Job_18": 3,
+            "Order_19-Job_19": 9
+        }
+    },
+    "transTimes": {
+        "Stage_0-Machine_0": {
+            "Stage_1-Machine_10": 1,
+            "Stage_1-Machine_11": 2,
+            "Stage_1-Machine_12": 3,
+            "Stage_1-Machine_13": 4,
+            "Stage_1-Machine_14": 5,
+            "Stage_1-Machine_15": 6,
+            "Stage_1-Machine_16": 7,
+            "Stage_1-Machine_17": 8,
+            "Stage_1-Machine_18": 9,
+            "Stage_1-Machine_19": 10
+        },
+        "Stage_0-Machine_1": {
+            "Stage_1-Machine_10": 2,
+            "Stage_1-Machine_11": 1,
+            "Stage_1-Machine_12": 2,
+            "Stage_1-Machine_13": 3,
+            "Stage_1-Machine_14": 4,
+            "Stage_1-Machine_15": 5,
+            "Stage_1-Machine_16": 6,
+            "Stage_1-Machine_17": 7,
+            "Stage_1-Machine_18": 8,
+            "Stage_1-Machine_19": 9
+        },
+        "Stage_0-Machine_2": {
+            "Stage_1-Machine_10": 3,
+            "Stage_1-Machine_11": 2,
+            "Stage_1-Machine_12": 1,
+            "Stage_1-Machine_13": 2,
+            "Stage_1-Machine_14": 3,
+            "Stage_1-Machine_15": 4,
+            "Stage_1-Machine_16": 5,
+            "Stage_1-Machine_17": 6,
+            "Stage_1-Machine_18": 7,
+            "Stage_1-Machine_19": 8
+        },
+        "Stage_0-Machine_3": {
+            "Stage_1-Machine_10": 4,
+            "Stage_1-Machine_11": 3,
+            "Stage_1-Machine_12": 2,
+            "Stage_1-Machine_13": 1,
+            "Stage_1-Machine_14": 2,
+            "Stage_1-Machine_15": 3,
+            "Stage_1-Machine_16": 4,
+            "Stage_1-Machine_17": 5,
+            "Stage_1-Machine_18": 6,
+            "Stage_1-Machine_19": 7
+        },
+        "Stage_0-Machine_4": {
+            "Stage_1-Machine_10": 5,
+            "Stage_1-Machine_11": 4,
+            "Stage_1-Machine_12": 3,
+            "Stage_1-Machine_13": 2,
+            "Stage_1-Machine_14": 1,
+            "Stage_1-Machine_15": 2,
+            "Stage_1-Machine_16": 3,
+            "Stage_1-Machine_17": 4,
+            "Stage_1-Machine_18": 5,
+            "Stage_1-Machine_19": 6
+        },
+        "Stage_0-Machine_5": {
+            "Stage_1-Machine_10": 6,
+            "Stage_1-Machine_11": 5,
+            "Stage_1-Machine_12": 4,
+            "Stage_1-Machine_13": 3,
+            "Stage_1-Machine_14": 2,
+            "Stage_1-Machine_15": 1,
+            "Stage_1-Machine_16": 2,
+            "Stage_1-Machine_17": 3,
+            "Stage_1-Machine_18": 4,
+            "Stage_1-Machine_19": 5
+        },
+        "Stage_0-Machine_6": {
+            "Stage_1-Machine_10": 7,
+            "Stage_1-Machine_11": 6,
+            "Stage_1-Machine_12": 5,
+            "Stage_1-Machine_13": 4,
+            "Stage_1-Machine_14": 3,
+            "Stage_1-Machine_15": 2,
+            "Stage_1-Machine_16": 1,
+            "Stage_1-Machine_17": 2,
+            "Stage_1-Machine_18": 3,
+            "Stage_1-Machine_19": 4
+        },
+        "Stage_0-Machine_7": {
+            "Stage_1-Machine_10": 8,
+            "Stage_1-Machine_11": 7,
+            "Stage_1-Machine_12": 6,
+            "Stage_1-Machine_13": 5,
+            "Stage_1-Machine_14": 4,
+            "Stage_1-Machine_15": 3,
+            "Stage_1-Machine_16": 2,
+            "Stage_1-Machine_17": 1,
+            "Stage_1-Machine_18": 2,
+            "Stage_1-Machine_19": 3
+        },
+        "Stage_0-Machine_8": {
+            "Stage_1-Machine_10": 9,
+            "Stage_1-Machine_11": 8,
+            "Stage_1-Machine_12": 7,
+            "Stage_1-Machine_13": 6,
+            "Stage_1-Machine_14": 5,
+            "Stage_1-Machine_15": 4,
+            "Stage_1-Machine_16": 3,
+            "Stage_1-Machine_17": 2,
+            "Stage_1-Machine_18": 1,
+            "Stage_1-Machine_19": 2
+        },
+        "Stage_0-Machine_9": {
+            "Stage_1-Machine_10": 10,
+            "Stage_1-Machine_11": 9,
+            "Stage_1-Machine_12": 8,
+            "Stage_1-Machine_13": 7,
+            "Stage_1-Machine_14": 6,
+            "Stage_1-Machine_15": 5,
+            "Stage_1-Machine_16": 4,
+            "Stage_1-Machine_17": 3,
+            "Stage_1-Machine_18": 2,
+            "Stage_1-Machine_19": 1
+        },
+        "Stage_1-Machine_10": {
+            "Stage_2-Machine_20": 1,
+            "Stage_2-Machine_21": 2,
+            "Stage_2-Machine_22": 3,
+            "Stage_2-Machine_23": 4,
+            "Stage_2-Machine_24": 5,
+            "Stage_2-Machine_25": 6,
+            "Stage_2-Machine_26": 7,
+            "Stage_2-Machine_27": 8,
+            "Stage_2-Machine_28": 9,
+            "Stage_2-Machine_29": 10
+        },
+        "Stage_1-Machine_11": {
+            "Stage_2-Machine_20": 2,
+            "Stage_2-Machine_21": 1,
+            "Stage_2-Machine_22": 2,
+            "Stage_2-Machine_23": 3,
+            "Stage_2-Machine_24": 4,
+            "Stage_2-Machine_25": 5,
+            "Stage_2-Machine_26": 6,
+            "Stage_2-Machine_27": 7,
+            "Stage_2-Machine_28": 8,
+            "Stage_2-Machine_29": 9
+        },
+        "Stage_1-Machine_12": {
+            "Stage_2-Machine_20": 3,
+            "Stage_2-Machine_21": 2,
+            "Stage_2-Machine_22": 1,
+            "Stage_2-Machine_23": 2,
+            "Stage_2-Machine_24": 3,
+            "Stage_2-Machine_25": 4,
+            "Stage_2-Machine_26": 5,
+            "Stage_2-Machine_27": 6,
+            "Stage_2-Machine_28": 7,
+            "Stage_2-Machine_29": 8
+        },
+        "Stage_1-Machine_13": {
+            "Stage_2-Machine_20": 4,
+            "Stage_2-Machine_21": 3,
+            "Stage_2-Machine_22": 2,
+            "Stage_2-Machine_23": 1,
+            "Stage_2-Machine_24": 2,
+            "Stage_2-Machine_25": 3,
+            "Stage_2-Machine_26": 4,
+            "Stage_2-Machine_27": 5,
+            "Stage_2-Machine_28": 6,
+            "Stage_2-Machine_29": 7
+        },
+        "Stage_1-Machine_14": {
+            "Stage_2-Machine_20": 5,
+            "Stage_2-Machine_21": 4,
+            "Stage_2-Machine_22": 3,
+            "Stage_2-Machine_23": 2,
+            "Stage_2-Machine_24": 1,
+            "Stage_2-Machine_25": 2,
+            "Stage_2-Machine_26": 3,
+            "Stage_2-Machine_27": 4,
+            "Stage_2-Machine_28": 5,
+            "Stage_2-Machine_29": 6
+        },
+        "Stage_1-Machine_15": {
+            "Stage_2-Machine_20": 6,
+            "Stage_2-Machine_21": 5,
+            "Stage_2-Machine_22": 4,
+            "Stage_2-Machine_23": 3,
+            "Stage_2-Machine_24": 2,
+            "Stage_2-Machine_25": 1,
+            "Stage_2-Machine_26": 2,
+            "Stage_2-Machine_27": 3,
+            "Stage_2-Machine_28": 4,
+            "Stage_2-Machine_29": 5
+        },
+        "Stage_1-Machine_16": {
+            "Stage_2-Machine_20": 7,
+            "Stage_2-Machine_21": 6,
+            "Stage_2-Machine_22": 5,
+            "Stage_2-Machine_23": 4,
+            "Stage_2-Machine_24": 3,
+            "Stage_2-Machine_25": 2,
+            "Stage_2-Machine_26": 1,
+            "Stage_2-Machine_27": 2,
+            "Stage_2-Machine_28": 3,
+            "Stage_2-Machine_29": 4
+        },
+        "Stage_1-Machine_17": {
+            "Stage_2-Machine_20": 8,
+            "Stage_2-Machine_21": 7,
+            "Stage_2-Machine_22": 6,
+            "Stage_2-Machine_23": 5,
+            "Stage_2-Machine_24": 4,
+            "Stage_2-Machine_25": 3,
+            "Stage_2-Machine_26": 2,
+            "Stage_2-Machine_27": 1,
+            "Stage_2-Machine_28": 2,
+            "Stage_2-Machine_29": 3
+        },
+        "Stage_1-Machine_18": {
+            "Stage_2-Machine_20": 9,
+            "Stage_2-Machine_21": 8,
+            "Stage_2-Machine_22": 7,
+            "Stage_2-Machine_23": 6,
+            "Stage_2-Machine_24": 5,
+            "Stage_2-Machine_25": 4,
+            "Stage_2-Machine_26": 3,
+            "Stage_2-Machine_27": 2,
+            "Stage_2-Machine_28": 1,
+            "Stage_2-Machine_29": 2
+        },
+        "Stage_1-Machine_19": {
+            "Stage_2-Machine_20": 10,
+            "Stage_2-Machine_21": 9,
+            "Stage_2-Machine_22": 8,
+            "Stage_2-Machine_23": 7,
+            "Stage_2-Machine_24": 6,
+            "Stage_2-Machine_25": 5,
+            "Stage_2-Machine_26": 4,
+            "Stage_2-Machine_27": 3,
+            "Stage_2-Machine_28": 2,
+            "Stage_2-Machine_29": 1
+        },
+        "Stage_2-Machine_20": {
+            "Stage_3-Machine_30": 1,
+            "Stage_3-Machine_31": 2,
+            "Stage_3-Machine_32": 3,
+            "Stage_3-Machine_33": 4,
+            "Stage_3-Machine_34": 5,
+            "Stage_3-Machine_35": 6,
+            "Stage_3-Machine_36": 7,
+            "Stage_3-Machine_37": 8,
+            "Stage_3-Machine_38": 9,
+            "Stage_3-Machine_39": 10
+        },
+        "Stage_2-Machine_21": {
+            "Stage_3-Machine_30": 2,
+            "Stage_3-Machine_31": 1,
+            "Stage_3-Machine_32": 2,
+            "Stage_3-Machine_33": 3,
+            "Stage_3-Machine_34": 4,
+            "Stage_3-Machine_35": 5,
+            "Stage_3-Machine_36": 6,
+            "Stage_3-Machine_37": 7,
+            "Stage_3-Machine_38": 8,
+            "Stage_3-Machine_39": 9
+        },
+        "Stage_2-Machine_22": {
+            "Stage_3-Machine_30": 3,
+            "Stage_3-Machine_31": 2,
+            "Stage_3-Machine_32": 1,
+            "Stage_3-Machine_33": 2,
+            "Stage_3-Machine_34": 3,
+            "Stage_3-Machine_35": 4,
+            "Stage_3-Machine_36": 5,
+            "Stage_3-Machine_37": 6,
+            "Stage_3-Machine_38": 7,
+            "Stage_3-Machine_39": 8
+        },
+        "Stage_2-Machine_23": {
+            "Stage_3-Machine_30": 4,
+            "Stage_3-Machine_31": 3,
+            "Stage_3-Machine_32": 2,
+            "Stage_3-Machine_33": 1,
+            "Stage_3-Machine_34": 2,
+            "Stage_3-Machine_35": 3,
+            "Stage_3-Machine_36": 4,
+            "Stage_3-Machine_37": 5,
+            "Stage_3-Machine_38": 6,
+            "Stage_3-Machine_39": 7
+        },
+        "Stage_2-Machine_24": {
+            "Stage_3-Machine_30": 5,
+            "Stage_3-Machine_31": 4,
+            "Stage_3-Machine_32": 3,
+            "Stage_3-Machine_33": 2,
+            "Stage_3-Machine_34": 1,
+            "Stage_3-Machine_35": 2,
+            "Stage_3-Machine_36": 3,
+            "Stage_3-Machine_37": 4,
+            "Stage_3-Machine_38": 5,
+            "Stage_3-Machine_39": 6
+        },
+        "Stage_2-Machine_25": {
+            "Stage_3-Machine_30": 6,
+            "Stage_3-Machine_31": 5,
+            "Stage_3-Machine_32": 4,
+            "Stage_3-Machine_33": 3,
+            "Stage_3-Machine_34": 2,
+            "Stage_3-Machine_35": 1,
+            "Stage_3-Machine_36": 2,
+            "Stage_3-Machine_37": 3,
+            "Stage_3-Machine_38": 4,
+            "Stage_3-Machine_39": 5
+        },
+        "Stage_2-Machine_26": {
+            "Stage_3-Machine_30": 7,
+            "Stage_3-Machine_31": 6,
+            "Stage_3-Machine_32": 5,
+            "Stage_3-Machine_33": 4,
+            "Stage_3-Machine_34": 3,
+            "Stage_3-Machine_35": 2,
+            "Stage_3-Machine_36": 1,
+            "Stage_3-Machine_37": 2,
+            "Stage_3-Machine_38": 3,
+            "Stage_3-Machine_39": 4
+        },
+        "Stage_2-Machine_27": {
+            "Stage_3-Machine_30": 8,
+            "Stage_3-Machine_31": 7,
+            "Stage_3-Machine_32": 6,
+            "Stage_3-Machine_33": 5,
+            "Stage_3-Machine_34": 4,
+            "Stage_3-Machine_35": 3,
+            "Stage_3-Machine_36": 2,
+            "Stage_3-Machine_37": 1,
+            "Stage_3-Machine_38": 2,
+            "Stage_3-Machine_39": 3
+        },
+        "Stage_2-Machine_28": {
+            "Stage_3-Machine_30": 9,
+            "Stage_3-Machine_31": 8,
+            "Stage_3-Machine_32": 7,
+            "Stage_3-Machine_33": 6,
+            "Stage_3-Machine_34": 5,
+            "Stage_3-Machine_35": 4,
+            "Stage_3-Machine_36": 3,
+            "Stage_3-Machine_37": 2,
+            "Stage_3-Machine_38": 1,
+            "Stage_3-Machine_39": 2
+        },
+        "Stage_2-Machine_29": {
+            "Stage_3-Machine_30": 10,
+            "Stage_3-Machine_31": 9,
+            "Stage_3-Machine_32": 8,
+            "Stage_3-Machine_33": 7,
+            "Stage_3-Machine_34": 6,
+            "Stage_3-Machine_35": 5,
+            "Stage_3-Machine_36": 4,
+            "Stage_3-Machine_37": 3,
+            "Stage_3-Machine_38": 2,
+            "Stage_3-Machine_39": 1
+        },
+        "Stage_3-Machine_30": {
+            "Stage_4-Machine_40": 1,
+            "Stage_4-Machine_41": 2,
+            "Stage_4-Machine_42": 3,
+            "Stage_4-Machine_43": 4,
+            "Stage_4-Machine_44": 5,
+            "Stage_4-Machine_45": 6,
+            "Stage_4-Machine_46": 7,
+            "Stage_4-Machine_47": 8,
+            "Stage_4-Machine_48": 9,
+            "Stage_4-Machine_49": 10
+        },
+        "Stage_3-Machine_31": {
+            "Stage_4-Machine_40": 2,
+            "Stage_4-Machine_41": 1,
+            "Stage_4-Machine_42": 2,
+            "Stage_4-Machine_43": 3,
+            "Stage_4-Machine_44": 4,
+            "Stage_4-Machine_45": 5,
+            "Stage_4-Machine_46": 6,
+            "Stage_4-Machine_47": 7,
+            "Stage_4-Machine_48": 8,
+            "Stage_4-Machine_49": 9
+        },
+        "Stage_3-Machine_32": {
+            "Stage_4-Machine_40": 3,
+            "Stage_4-Machine_41": 2,
+            "Stage_4-Machine_42": 1,
+            "Stage_4-Machine_43": 2,
+            "Stage_4-Machine_44": 3,
+            "Stage_4-Machine_45": 4,
+            "Stage_4-Machine_46": 5,
+            "Stage_4-Machine_47": 6,
+            "Stage_4-Machine_48": 7,
+            "Stage_4-Machine_49": 8
+        },
+        "Stage_3-Machine_33": {
+            "Stage_4-Machine_40": 4,
+            "Stage_4-Machine_41": 3,
+            "Stage_4-Machine_42": 2,
+            "Stage_4-Machine_43": 1,
+            "Stage_4-Machine_44": 2,
+            "Stage_4-Machine_45": 3,
+            "Stage_4-Machine_46": 4,
+            "Stage_4-Machine_47": 5,
+            "Stage_4-Machine_48": 6,
+            "Stage_4-Machine_49": 7
+        },
+        "Stage_3-Machine_34": {
+            "Stage_4-Machine_40": 5,
+            "Stage_4-Machine_41": 4,
+            "Stage_4-Machine_42": 3,
+            "Stage_4-Machine_43": 2,
+            "Stage_4-Machine_44": 1,
+            "Stage_4-Machine_45": 2,
+            "Stage_4-Machine_46": 3,
+            "Stage_4-Machine_47": 4,
+            "Stage_4-Machine_48": 5,
+            "Stage_4-Machine_49": 6
+        },
+        "Stage_3-Machine_35": {
+            "Stage_4-Machine_40": 6,
+            "Stage_4-Machine_41": 5,
+            "Stage_4-Machine_42": 4,
+            "Stage_4-Machine_43": 3,
+            "Stage_4-Machine_44": 2,
+            "Stage_4-Machine_45": 1,
+            "Stage_4-Machine_46": 2,
+            "Stage_4-Machine_47": 3,
+            "Stage_4-Machine_48": 4,
+            "Stage_4-Machine_49": 5
+        },
+        "Stage_3-Machine_36": {
+            "Stage_4-Machine_40": 7,
+            "Stage_4-Machine_41": 6,
+            "Stage_4-Machine_42": 5,
+            "Stage_4-Machine_43": 4,
+            "Stage_4-Machine_44": 3,
+            "Stage_4-Machine_45": 2,
+            "Stage_4-Machine_46": 1,
+            "Stage_4-Machine_47": 2,
+            "Stage_4-Machine_48": 3,
+            "Stage_4-Machine_49": 4
+        },
+        "Stage_3-Machine_37": {
+            "Stage_4-Machine_40": 8,
+            "Stage_4-Machine_41": 7,
+            "Stage_4-Machine_42": 6,
+            "Stage_4-Machine_43": 5,
+            "Stage_4-Machine_44": 4,
+            "Stage_4-Machine_45": 3,
+            "Stage_4-Machine_46": 2,
+            "Stage_4-Machine_47": 1,
+            "Stage_4-Machine_48": 2,
+            "Stage_4-Machine_49": 3
+        },
+        "Stage_3-Machine_38": {
+            "Stage_4-Machine_40": 9,
+            "Stage_4-Machine_41": 8,
+            "Stage_4-Machine_42": 7,
+            "Stage_4-Machine_43": 6,
+            "Stage_4-Machine_44": 5,
+            "Stage_4-Machine_45": 4,
+            "Stage_4-Machine_46": 3,
+            "Stage_4-Machine_47": 2,
+            "Stage_4-Machine_48": 1,
+            "Stage_4-Machine_49": 2
+        },
+        "Stage_3-Machine_39": {
+            "Stage_4-Machine_40": 10,
+            "Stage_4-Machine_41": 9,
+            "Stage_4-Machine_42": 8,
+            "Stage_4-Machine_43": 7,
+            "Stage_4-Machine_44": 6,
+            "Stage_4-Machine_45": 5,
+            "Stage_4-Machine_46": 4,
+            "Stage_4-Machine_47": 3,
+            "Stage_4-Machine_48": 2,
+            "Stage_4-Machine_49": 1
+        },
+        "Stage_4-Machine_40": {
+            "Stage_5-Machine_50": 1,
+            "Stage_5-Machine_51": 2,
+            "Stage_5-Machine_52": 3,
+            "Stage_5-Machine_53": 4,
+            "Stage_5-Machine_54": 5,
+            "Stage_5-Machine_55": 6,
+            "Stage_5-Machine_56": 7,
+            "Stage_5-Machine_57": 8,
+            "Stage_5-Machine_58": 9,
+            "Stage_5-Machine_59": 10
+        },
+        "Stage_4-Machine_41": {
+            "Stage_5-Machine_50": 2,
+            "Stage_5-Machine_51": 1,
+            "Stage_5-Machine_52": 2,
+            "Stage_5-Machine_53": 3,
+            "Stage_5-Machine_54": 4,
+            "Stage_5-Machine_55": 5,
+            "Stage_5-Machine_56": 6,
+            "Stage_5-Machine_57": 7,
+            "Stage_5-Machine_58": 8,
+            "Stage_5-Machine_59": 9
+        },
+        "Stage_4-Machine_42": {
+            "Stage_5-Machine_50": 3,
+            "Stage_5-Machine_51": 2,
+            "Stage_5-Machine_52": 1,
+            "Stage_5-Machine_53": 2,
+            "Stage_5-Machine_54": 3,
+            "Stage_5-Machine_55": 4,
+            "Stage_5-Machine_56": 5,
+            "Stage_5-Machine_57": 6,
+            "Stage_5-Machine_58": 7,
+            "Stage_5-Machine_59": 8
+        },
+        "Stage_4-Machine_43": {
+            "Stage_5-Machine_50": 4,
+            "Stage_5-Machine_51": 3,
+            "Stage_5-Machine_52": 2,
+            "Stage_5-Machine_53": 1,
+            "Stage_5-Machine_54": 2,
+            "Stage_5-Machine_55": 3,
+            "Stage_5-Machine_56": 4,
+            "Stage_5-Machine_57": 5,
+            "Stage_5-Machine_58": 6,
+            "Stage_5-Machine_59": 7
+        },
+        "Stage_4-Machine_44": {
+            "Stage_5-Machine_50": 5,
+            "Stage_5-Machine_51": 4,
+            "Stage_5-Machine_52": 3,
+            "Stage_5-Machine_53": 2,
+            "Stage_5-Machine_54": 1,
+            "Stage_5-Machine_55": 2,
+            "Stage_5-Machine_56": 3,
+            "Stage_5-Machine_57": 4,
+            "Stage_5-Machine_58": 5,
+            "Stage_5-Machine_59": 6
+        },
+        "Stage_4-Machine_45": {
+            "Stage_5-Machine_50": 6,
+            "Stage_5-Machine_51": 5,
+            "Stage_5-Machine_52": 4,
+            "Stage_5-Machine_53": 3,
+            "Stage_5-Machine_54": 2,
+            "Stage_5-Machine_55": 1,
+            "Stage_5-Machine_56": 2,
+            "Stage_5-Machine_57": 3,
+            "Stage_5-Machine_58": 4,
+            "Stage_5-Machine_59": 5
+        },
+        "Stage_4-Machine_46": {
+            "Stage_5-Machine_50": 7,
+            "Stage_5-Machine_51": 6,
+            "Stage_5-Machine_52": 5,
+            "Stage_5-Machine_53": 4,
+            "Stage_5-Machine_54": 3,
+            "Stage_5-Machine_55": 2,
+            "Stage_5-Machine_56": 1,
+            "Stage_5-Machine_57": 2,
+            "Stage_5-Machine_58": 3,
+            "Stage_5-Machine_59": 4
+        },
+        "Stage_4-Machine_47": {
+            "Stage_5-Machine_50": 8,
+            "Stage_5-Machine_51": 7,
+            "Stage_5-Machine_52": 6,
+            "Stage_5-Machine_53": 5,
+            "Stage_5-Machine_54": 4,
+            "Stage_5-Machine_55": 3,
+            "Stage_5-Machine_56": 2,
+            "Stage_5-Machine_57": 1,
+            "Stage_5-Machine_58": 2,
+            "Stage_5-Machine_59": 3
+        },
+        "Stage_4-Machine_48": {
+            "Stage_5-Machine_50": 9,
+            "Stage_5-Machine_51": 8,
+            "Stage_5-Machine_52": 7,
+            "Stage_5-Machine_53": 6,
+            "Stage_5-Machine_54": 5,
+            "Stage_5-Machine_55": 4,
+            "Stage_5-Machine_56": 3,
+            "Stage_5-Machine_57": 2,
+            "Stage_5-Machine_58": 1,
+            "Stage_5-Machine_59": 2
+        },
+        "Stage_4-Machine_49": {
+            "Stage_5-Machine_50": 10,
+            "Stage_5-Machine_51": 9,
+            "Stage_5-Machine_52": 8,
+            "Stage_5-Machine_53": 7,
+            "Stage_5-Machine_54": 6,
+            "Stage_5-Machine_55": 5,
+            "Stage_5-Machine_56": 4,
+            "Stage_5-Machine_57": 3,
+            "Stage_5-Machine_58": 2,
+            "Stage_5-Machine_59": 1
+        },
+        "Stage_5-Machine_50": {
+            "Stage_6-Machine_60": 1,
+            "Stage_6-Machine_61": 2,
+            "Stage_6-Machine_62": 3,
+            "Stage_6-Machine_63": 4,
+            "Stage_6-Machine_64": 5,
+            "Stage_6-Machine_65": 6,
+            "Stage_6-Machine_66": 7,
+            "Stage_6-Machine_67": 8,
+            "Stage_6-Machine_68": 9,
+            "Stage_6-Machine_69": 10
+        },
+        "Stage_5-Machine_51": {
+            "Stage_6-Machine_60": 2,
+            "Stage_6-Machine_61": 1,
+            "Stage_6-Machine_62": 2,
+            "Stage_6-Machine_63": 3,
+            "Stage_6-Machine_64": 4,
+            "Stage_6-Machine_65": 5,
+            "Stage_6-Machine_66": 6,
+            "Stage_6-Machine_67": 7,
+            "Stage_6-Machine_68": 8,
+            "Stage_6-Machine_69": 9
+        },
+        "Stage_5-Machine_52": {
+            "Stage_6-Machine_60": 3,
+            "Stage_6-Machine_61": 2,
+            "Stage_6-Machine_62": 1,
+            "Stage_6-Machine_63": 2,
+            "Stage_6-Machine_64": 3,
+            "Stage_6-Machine_65": 4,
+            "Stage_6-Machine_66": 5,
+            "Stage_6-Machine_67": 6,
+            "Stage_6-Machine_68": 7,
+            "Stage_6-Machine_69": 8
+        },
+        "Stage_5-Machine_53": {
+            "Stage_6-Machine_60": 4,
+            "Stage_6-Machine_61": 3,
+            "Stage_6-Machine_62": 2,
+            "Stage_6-Machine_63": 1,
+            "Stage_6-Machine_64": 2,
+            "Stage_6-Machine_65": 3,
+            "Stage_6-Machine_66": 4,
+            "Stage_6-Machine_67": 5,
+            "Stage_6-Machine_68": 6,
+            "Stage_6-Machine_69": 7
+        },
+        "Stage_5-Machine_54": {
+            "Stage_6-Machine_60": 5,
+            "Stage_6-Machine_61": 4,
+            "Stage_6-Machine_62": 3,
+            "Stage_6-Machine_63": 2,
+            "Stage_6-Machine_64": 1,
+            "Stage_6-Machine_65": 2,
+            "Stage_6-Machine_66": 3,
+            "Stage_6-Machine_67": 4,
+            "Stage_6-Machine_68": 5,
+            "Stage_6-Machine_69": 6
+        },
+        "Stage_5-Machine_55": {
+            "Stage_6-Machine_60": 6,
+            "Stage_6-Machine_61": 5,
+            "Stage_6-Machine_62": 4,
+            "Stage_6-Machine_63": 3,
+            "Stage_6-Machine_64": 2,
+            "Stage_6-Machine_65": 1,
+            "Stage_6-Machine_66": 2,
+            "Stage_6-Machine_67": 3,
+            "Stage_6-Machine_68": 4,
+            "Stage_6-Machine_69": 5
+        },
+        "Stage_5-Machine_56": {
+            "Stage_6-Machine_60": 7,
+            "Stage_6-Machine_61": 6,
+            "Stage_6-Machine_62": 5,
+            "Stage_6-Machine_63": 4,
+            "Stage_6-Machine_64": 3,
+            "Stage_6-Machine_65": 2,
+            "Stage_6-Machine_66": 1,
+            "Stage_6-Machine_67": 2,
+            "Stage_6-Machine_68": 3,
+            "Stage_6-Machine_69": 4
+        },
+        "Stage_5-Machine_57": {
+            "Stage_6-Machine_60": 8,
+            "Stage_6-Machine_61": 7,
+            "Stage_6-Machine_62": 6,
+            "Stage_6-Machine_63": 5,
+            "Stage_6-Machine_64": 4,
+            "Stage_6-Machine_65": 3,
+            "Stage_6-Machine_66": 2,
+            "Stage_6-Machine_67": 1,
+            "Stage_6-Machine_68": 2,
+            "Stage_6-Machine_69": 3
+        },
+        "Stage_5-Machine_58": {
+            "Stage_6-Machine_60": 9,
+            "Stage_6-Machine_61": 8,
+            "Stage_6-Machine_62": 7,
+            "Stage_6-Machine_63": 6,
+            "Stage_6-Machine_64": 5,
+            "Stage_6-Machine_65": 4,
+            "Stage_6-Machine_66": 3,
+            "Stage_6-Machine_67": 2,
+            "Stage_6-Machine_68": 1,
+            "Stage_6-Machine_69": 2
+        },
+        "Stage_5-Machine_59": {
+            "Stage_6-Machine_60": 10,
+            "Stage_6-Machine_61": 9,
+            "Stage_6-Machine_62": 8,
+            "Stage_6-Machine_63": 7,
+            "Stage_6-Machine_64": 6,
+            "Stage_6-Machine_65": 5,
+            "Stage_6-Machine_66": 4,
+            "Stage_6-Machine_67": 3,
+            "Stage_6-Machine_68": 2,
+            "Stage_6-Machine_69": 1
+        },
+        "Stage_6-Machine_60": {
+            "Stage_7-Machine_70": 1,
+            "Stage_7-Machine_71": 2,
+            "Stage_7-Machine_72": 3,
+            "Stage_7-Machine_73": 4,
+            "Stage_7-Machine_74": 5,
+            "Stage_7-Machine_75": 6,
+            "Stage_7-Machine_76": 7,
+            "Stage_7-Machine_77": 8,
+            "Stage_7-Machine_78": 9,
+            "Stage_7-Machine_79": 10
+        },
+        "Stage_6-Machine_61": {
+            "Stage_7-Machine_70": 2,
+            "Stage_7-Machine_71": 1,
+            "Stage_7-Machine_72": 2,
+            "Stage_7-Machine_73": 3,
+            "Stage_7-Machine_74": 4,
+            "Stage_7-Machine_75": 5,
+            "Stage_7-Machine_76": 6,
+            "Stage_7-Machine_77": 7,
+            "Stage_7-Machine_78": 8,
+            "Stage_7-Machine_79": 9
+        },
+        "Stage_6-Machine_62": {
+            "Stage_7-Machine_70": 3,
+            "Stage_7-Machine_71": 2,
+            "Stage_7-Machine_72": 1,
+            "Stage_7-Machine_73": 2,
+            "Stage_7-Machine_74": 3,
+            "Stage_7-Machine_75": 4,
+            "Stage_7-Machine_76": 5,
+            "Stage_7-Machine_77": 6,
+            "Stage_7-Machine_78": 7,
+            "Stage_7-Machine_79": 8
+        },
+        "Stage_6-Machine_63": {
+            "Stage_7-Machine_70": 4,
+            "Stage_7-Machine_71": 3,
+            "Stage_7-Machine_72": 2,
+            "Stage_7-Machine_73": 1,
+            "Stage_7-Machine_74": 2,
+            "Stage_7-Machine_75": 3,
+            "Stage_7-Machine_76": 4,
+            "Stage_7-Machine_77": 5,
+            "Stage_7-Machine_78": 6,
+            "Stage_7-Machine_79": 7
+        },
+        "Stage_6-Machine_64": {
+            "Stage_7-Machine_70": 5,
+            "Stage_7-Machine_71": 4,
+            "Stage_7-Machine_72": 3,
+            "Stage_7-Machine_73": 2,
+            "Stage_7-Machine_74": 1,
+            "Stage_7-Machine_75": 2,
+            "Stage_7-Machine_76": 3,
+            "Stage_7-Machine_77": 4,
+            "Stage_7-Machine_78": 5,
+            "Stage_7-Machine_79": 6
+        },
+        "Stage_6-Machine_65": {
+            "Stage_7-Machine_70": 6,
+            "Stage_7-Machine_71": 5,
+            "Stage_7-Machine_72": 4,
+            "Stage_7-Machine_73": 3,
+            "Stage_7-Machine_74": 2,
+            "Stage_7-Machine_75": 1,
+            "Stage_7-Machine_76": 2,
+            "Stage_7-Machine_77": 3,
+            "Stage_7-Machine_78": 4,
+            "Stage_7-Machine_79": 5
+        },
+        "Stage_6-Machine_66": {
+            "Stage_7-Machine_70": 7,
+            "Stage_7-Machine_71": 6,
+            "Stage_7-Machine_72": 5,
+            "Stage_7-Machine_73": 4,
+            "Stage_7-Machine_74": 3,
+            "Stage_7-Machine_75": 2,
+            "Stage_7-Machine_76": 1,
+            "Stage_7-Machine_77": 2,
+            "Stage_7-Machine_78": 3,
+            "Stage_7-Machine_79": 4
+        },
+        "Stage_6-Machine_67": {
+            "Stage_7-Machine_70": 8,
+            "Stage_7-Machine_71": 7,
+            "Stage_7-Machine_72": 6,
+            "Stage_7-Machine_73": 5,
+            "Stage_7-Machine_74": 4,
+            "Stage_7-Machine_75": 3,
+            "Stage_7-Machine_76": 2,
+            "Stage_7-Machine_77": 1,
+            "Stage_7-Machine_78": 2,
+            "Stage_7-Machine_79": 3
+        },
+        "Stage_6-Machine_68": {
+            "Stage_7-Machine_70": 9,
+            "Stage_7-Machine_71": 8,
+            "Stage_7-Machine_72": 7,
+            "Stage_7-Machine_73": 6,
+            "Stage_7-Machine_74": 5,
+            "Stage_7-Machine_75": 4,
+            "Stage_7-Machine_76": 3,
+            "Stage_7-Machine_77": 2,
+            "Stage_7-Machine_78": 1,
+            "Stage_7-Machine_79": 2
+        },
+        "Stage_6-Machine_69": {
+            "Stage_7-Machine_70": 10,
+            "Stage_7-Machine_71": 9,
+            "Stage_7-Machine_72": 8,
+            "Stage_7-Machine_73": 7,
+            "Stage_7-Machine_74": 6,
+            "Stage_7-Machine_75": 5,
+            "Stage_7-Machine_76": 4,
+            "Stage_7-Machine_77": 3,
+            "Stage_7-Machine_78": 2,
+            "Stage_7-Machine_79": 1
+        },
+        "Stage_7-Machine_70": {},
+        "Stage_7-Machine_71": {},
+        "Stage_7-Machine_72": {},
+        "Stage_7-Machine_73": {},
+        "Stage_7-Machine_74": {},
+        "Stage_7-Machine_75": {},
+        "Stage_7-Machine_76": {},
+        "Stage_7-Machine_77": {},
+        "Stage_7-Machine_78": {},
+        "Stage_7-Machine_79": {}
+    },
+    "workers": {
+        "total": 20,
+        "min_w": 1,
+        "max_w": 3
+    }
+}
